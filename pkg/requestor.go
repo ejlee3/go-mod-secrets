@@ -30,7 +30,7 @@ import (
 	"github.com/edgexfoundry/go-mod-secrets/v2/pkg/token/fileioperformer"
 )
 
-const httpClientTimeoutDuration = 10 * time.Second
+const httpClientTimeoutDuration = 30 * time.Second
 
 type HTTPSRequester interface {
 	Insecure() Caller
